@@ -1,3 +1,3 @@
-sudo ln -sf /home/box/etc/nginx.conf 
+sudo ln -sf /home/box/etc/nginx.conf
 sudo unlink /etc/nginx/sites-enabled/default
 sudo /etc/init.d/nginx restart
